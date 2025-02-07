@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+https://github.com/ayeshalatif1/LANDING-PAGE-SUNNYSIDE-AGENCY-/blob/main/desktop-design.jpg
 
 
 ### Links
