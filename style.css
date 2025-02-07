@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagetop {
+    background: url('image-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 99vh;
+    width: 100%;
+}
+
+#redapple {
+    background: url('image-graphic-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+#orange {
+    background: url('image-photography.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 2px solid red; */
+    background-size: cover;
+    height: 85vh;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+
+ul {
+    display: flex;
+    gap: 2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    font-family: Barlow;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+
+}
+
+nav .menu {
+    display: flex;
+    gap: 3rem;
+}
+
+nav button {
+    background-color: hsl(0, 0%, 100%);
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 25px;
+    font-weight: bold;
+    /* color: hsl(212, 27%, 19%); */
+    color: hsl(212, 27%, 19%);
+    font-family: FrauncesBold;
+    font-weight: 900;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    /* gap: 7rem; */
+}
+
+.heading h1 {
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 5px;
+    text-align: center;
+    /* font-weight: bold; */
+    font-family: Fraunces;
+    font-weight: 900;
+    padding-top: 2.2rem;
+    padding-bottom: 4.5rem;
+    font-size: 2rem;
+}
+
+.heading img {
+    width: 2%;
+    align-self: center;
+}
+
+.transform {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.transform .box {
+    width: 50%;
+}
+
+.transform img {
+    width: 100%;
+}
+
+.transform p {
+    font-family: Barlow;
+    font-size: 18px;
+}
+
+.transform a {
+    font-family: FrauncesBold;
+    font-weight: 700;
+    color: hsl(212, 27%, 19%);
+
+}
+
+#txtbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 3rem;
+    padding: 6rem;
+    font-size: 18px;
+}
+
+.transform h3 {
+    font-family: FrauncesBold;
+    color: hsl(212, 27%, 19%);
+    font-size: 2.4rem;
+    padding-right: 1rem;
+
+}
+
+#txtbox h3 {
+    text-align: left;
+}
+
+#standout {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#services h3 {
+    font-family: FrauncesBold;
+    color: hsl(212, 27%, 19%);
+    font-size: 1.5rem;
+
+}
+
+#services p {
+    font-family: Barlow;
+}
+
+#standout img {
+    width: 100%;
+}
+
+#services .boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#redapple {
+    color: hsl(167, 40%, 24%);
+    font-weight: 600;
+}
+
+#orange p {
+    color: hsl(198, 62%, 26%);
+    font-weight: 600;
+}
+
+#services .boxes .box {
+    width: 50%;
+    height: 85vh;
+    padding: 10rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    text-align: center;
+    display: flex;
+}
+
+#services .boxes .text {
+    position: relative;
+    bottom: -100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.testimonial .boxes {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.testimonial .head h3 {
+    text-align: center;
+    font-family: Fraunces;
+    letter-spacing: 3px;
+    color: hsl(210, 4%, 67%);
+}
+
+.testimonial .box {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.testimonial .box h3 {
+    text-align: center;
+    font-family: Fraunces;
+}
+
+.testimonial .box p {
+    color: #78797d;
+    font-weight: 600;
+}
+
+.testimonial .box div {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial .box div p {
+    /* margin-top: -10%; */
+    font-family: Barlow;
+    color: hsl(210, 4%, 67%);
+    font-weight: light;
+}
+
+.testimonial img {
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.testimonial p {
+    text-align: center;
+    /* padding: 1rem; */
+    font-family: Barlow;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images .img {
+    width: 25%;
+}
+
+.images .img img {
+    width: 100%;
+}
+
+.footer {
+    background: #90d4c5;
+    /* color: hsl(212, 27%, 19%); */
+    color: #3d8476;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 4rem;
+}
+
+footer .content {
+    /* background-color: #90d4c5; */
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    font-size: 18px;
+}
+
+footer img {
+    color:
+        #3d8476;
+}
+
+footer .icons {
+    display: flex;
+    gap: 1rem;
+}
+
+footer a {
+    color: #32796b;
+}
+
+menu {
+    display: none;
+}
+
+#mobile {
+    display: none;
+}
+
+@media (min-width:320px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        align-items: stretch;
+        width: 100%;
+        max-width: 100vw;
+    }
+    nav{
+        display: none;
+    }
+    .heading h1{
+        font-size: 2.1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+    }
+    .heading img{
+        width: 5%;
+    }
+    menu {
+        display: flex;
+    }
+
+    menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+        /* clip-path: polygon(0 0, 95% 0); */
+    }
+    #mobile-menu{
+        cursor: pointer;
+    }
+
+    .mbl-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 20%;
+        z-index: 1;
+        background-color: white;
+        width: 85%;
+        padding: 2rem;
+    }
+
+    .mbl-menu li {
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .mbl-menu a {
+        color: hsl(210, 4%, 67%);
+        font-weight: bold;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 18px;
+    }
+
+    .mbl-menu button {
+        padding: 1em 2em;
+        background-color: hsl(51, 100%, 49%);
+        border-radius: 25px;
+        border: 2px solid hsl(51, 100%, 49%);
+        color: hsl(212, 27%, 19%);
+        font-family: FrauncesBold;
+        font-weight: 900;
+        font-size: 18px;
+    }
+
+    .mbl-menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+    .transform p{
+        text-align: center;
+    }
+    #txtbox {
+        padding: 1rem;
+        align-items: center;
+    }
+
+    #services .boxes .box {
+        width: 50%;
+        height: 80vh;
+
+        padding: 10rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        /* text-align: left; */
+        display: flex;
+    }
+    
+    #txtbox h3 {
+        text-align: center;
+    }
+
+    .transform h3 {
+        font-size: 1.7rem;
+    }
+    .images .img{
+        width: 50%;
+    }
+    .images img{
+        width: 100%;
+    }
+    .transform .box {
+        width: 100%;
+    }
+    #services .boxes .box {
+        width: 100%;
+    }
+
+    .testimonial .boxes {
+        flex-wrap: wrap;
+        gap: 5rem;
+    }
+    .testimonial .boxes {
+        flex-wrap: wrap;
+    }
+
+
+    .testimonial .box {
+        width: 100%;
+    }
+
+    
+}
+
+@media (min-width:769px) and (max-width:1100px)
+{
+    .images .img{
+        width: 50%;
+    }
+    #txtbox{
+        padding: 2rem;
+    }
+    #services .boxes .box{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .transform h3{
+        font-size:1.5rem;
+    }
+}
+
