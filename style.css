@@ -25,7 +25,6 @@
     background: url('image-photography.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    /* border: 2px solid red; */
     background-size: cover;
     height: 85vh;
 }
@@ -77,7 +76,6 @@ nav button {
     border: 2px solid hsl(0, 0%, 100%);
     border-radius: 25px;
     font-weight: bold;
-    /* color: hsl(212, 27%, 19%); */
     color: hsl(212, 27%, 19%);
     font-family: FrauncesBold;
     font-weight: 900;
@@ -86,14 +84,12 @@ nav button {
 .heading {
     display: flex;
     flex-direction: column;
-    /* gap: 7rem; */
 }
 
 .heading h1 {
     color: hsl(0, 0%, 100%);
     letter-spacing: 5px;
     text-align: center;
-    /* font-weight: bold; */
     font-family: Fraunces;
     font-weight: 900;
     padding-top: 2.2rem;
@@ -136,7 +132,6 @@ nav button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     gap: 3rem;
     padding: 6rem;
     font-size: 18px;
@@ -163,7 +158,6 @@ nav button {
     font-family: FrauncesBold;
     color: hsl(212, 27%, 19%);
     font-size: 1.5rem;
-
 }
 
 #services p {
@@ -205,7 +199,6 @@ nav button {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-
 }
 
 .testimonial {
@@ -252,13 +245,11 @@ nav button {
 }
 
 .testimonial .box div {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
 }
 
 .testimonial .box div p {
-    /* margin-top: -10%; */
     font-family: Barlow;
     color: hsl(210, 4%, 67%);
     font-weight: light;
@@ -272,7 +263,6 @@ nav button {
 
 .testimonial p {
     text-align: center;
-    /* padding: 1rem; */
     font-family: Barlow;
 }
 
@@ -291,9 +281,7 @@ nav button {
 
 .footer {
     background: #90d4c5;
-    /* color: hsl(212, 27%, 19%); */
     color: #3d8476;
-    /* background-color: black; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -303,7 +291,6 @@ nav button {
 }
 
 footer .content {
-    /* background-color: #90d4c5; */
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -316,8 +303,7 @@ footer a {
 }
 
 footer img {
-    color:
-        #3d8476;
+    color: #3d8476;
 }
 
 footer .icons {
@@ -369,7 +355,6 @@ menu {
         display: flex;
         justify-content: space-between;
         padding: 2rem;
-        /* clip-path: polygon(0 0, 95% 0); */
     }
     #mobile-menu{
         cursor: pointer;
@@ -432,11 +417,9 @@ menu {
     #services .boxes .box {
         width: 50%;
         height: 80vh;
-
         padding: 10rem;
         padding-left: 2rem;
         padding-right: 2rem;
-        /* text-align: left; */
         display: flex;
     }
     
