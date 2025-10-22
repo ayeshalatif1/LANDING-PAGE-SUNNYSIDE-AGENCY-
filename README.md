@@ -30,7 +30,6 @@ https://github.com/ayeshalatif1/LANDING-PAGE-SUNNYSIDE-AGENCY-/blob/main/desktop
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: https://ayeshalatif1.github.io/LANDING-PAGE-SUNNYSIDE-AGENCY-/
 
 ## My process
